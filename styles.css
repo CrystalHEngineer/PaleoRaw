@@ -1,0 +1,291 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+
+/* CTA */
+
+#cta {
+  background-color: #D6E4F0;
+  color: #FDFEFF;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+.cta-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Features  */
+
+
+.feature {
+  padding: 5%;
+  text-align: center;
+}
+
+#features {
+  padding: 4% 8%;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.footer-link {
+  color: gray;
+  padding: 2%;
+}
+
+.icon {
+  color: #163172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #1E56A0;
+}
+
+
+
+
+/* Footer  */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+
+/* HTML Tags  */
+
+em {
+  color: #FDFEFF;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+  color: #FDFEFF!important;
+  font-family: 'Bitter', serif;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.nav-link {
+  color: #FFF6F6;
+  font-family: 'Bitter', serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.nav-link:hover {
+  color: #DCDCDC;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+
+#title {
+  background-color: #D6E4F0;
+}
+
+
+
+/* Pricing Section  */
+
+.card-body {
+  background-color: #D6E4F0;
+}
+
+.card-h2 {
+  color: #1E56A0;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.card-header {
+  background-color: #D6E4F0;
+}
+
+.card-header-h3 {
+  color:  #FDFEFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-ptag {
+  color: #FDFEFF;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+#pricing {
+  padding: 10rem;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-header {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.pricing-ptag {
+  font-size: 1.1rem;
+}
+
+
+
+/* Testimonials */
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #D6E4F0;
+  text-align: center;
+}
+
+.press-logo {
+  height: 5rem;
+  margin: 2rem 2rem 5rem;
+  width: 15%;
+}
+
+#testimonials {
+  background-color: #D6E4F0;
+  color: #FDFEFF;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  height: 7rem;
+  margin: 2rem;
+  width: 10%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+
+/* Title */
+
+#title {
+  text-align: left;
+}
+
+.title-about {
+  color: #1E56A0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 7%;
+}
+
+
+
+/* Top Section  */
+
+.btn-light {
+  background-color: #FDFEFF !important;
+  border-color: #FDFEFF !important;
+}
+
+.btn-light:hover,
+.btn-light:active,
+.btn-light:visited,
+.btn-light:focus {
+  background-color: #DCDCDC !important;
+  border-color: #DCDCDC !important;
+}
+
+.btn-primary {
+  background-color: #163172;
+  border-color: #163172;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #1E56A0 !important;
+  border-color: #1E56A0 !important;
+}
+
+
+.container-fluid {
+  padding: 1% 5%;
+}
+
+
+#meal {
+  height: 30rem;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ------- FOOTER PAGE ------- */
+
+#FAQ {
+  padding: 2% 9%;
+}
+
+#other-footer {
+  text-align: center;
+}
+
+.q {
+  padding-bottom: 2%;
+}

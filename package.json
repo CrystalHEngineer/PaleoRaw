@@ -1,0 +1,26 @@
+{
+  "name": "paleoraw",
+  "version": "1.0.0",
+  "description": "Raw dog food website.",
+  "main": "calculator.js",
+  "scripts": {
+    "build": "echo \"No build specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrystalHEngineer/PaleoRaw.git"
+  },
+  "author": "Crystal Harper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrystalHEngineer/PaleoRaw/issues"
+  },
+  "homepage": "https://github.com/CrystalHEngineer/PaleoRaw#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
