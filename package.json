@@ -4,7 +4,7 @@
   "description": "Raw dog food website.",
   "main": "calculator.js",
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
+    "build": "echo \"No build specified\"",
     "test": "echo \"No test specified\" && exit 1",
     "start": "node index.js"
   },
