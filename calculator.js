@@ -17,8 +17,8 @@ app.post("/calculator", function(req, res){ //Says to respond to a "get" request
     res.send("The result is " + result);
 });
 
-app.get("/bmiCalculator", function(req, res){
-    res.sendFile(__dirname + "/bmiCalculator.html")
+app.get("/Calculator", function(req, res){
+    res.sendFile(__dirname + "/calculator.html")
 });
 
 app.post("/bmiCalculator", function(req, res){
