@@ -10,14 +10,19 @@ app.get("/calculator", function(req, res){ //Saying to retrieve any requests (in
 });
 
 app.post("/calculator", function(req, res){ //Says to respond to a "get" request by posting in response on the /calculator" page:
+    var num2 = req.body.num2;
+    var num1 = req.body.num1;
     var num1 = parseFloat(req.body.num1);
     var num2 = parseFloat(req.body.num2);
 
-    var result = (num1 * num2);
-    res.send("The result is " + result);
+    var gramsperDay = (453 * num1 * num2);
+    var gramsperMeal = (453 * num1 * num2)/2;
+    var gramsperMonth = (453 * num1 * num2 * 30);
+    var poundsperMonth = (num1 * num2 * 30);
+    res.send("Grams of food per day is " + gramsperDay + ", grams of food per meal (if feeding twice a day) is " + gramsperMeal +  ", and total pounds of food required per month is " + poundsperMonth + " pounds.");
 });
 
-app.get("/Calculator", function(req, res){
+app.get("/calculator", function(req, res){
     res.sendFile(__dirname + "/calculator.html")
 });
 

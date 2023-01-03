@@ -70,17 +70,21 @@
   <section id="calculator">
 
     <form method="post">
+      <div class="input-group mb-3">
 
-      <input type="text" name="num1" placeholder="Weight in lbs">
-      <select name="num2" id="">
-        <option value=".015">Low Activity/Overweight (1.5%)</option>  
-        <option value=".02">Average Activty (2.0%)</option>
-        <option value=".025">Above Average Activity (2.5%)</option>
-        <option value=".03">Needs to Gain Weight (3.0%)</option>
-        <option value=".035">Highly Active</option>
-        <option value="0.04">Puppy (4.0%)</option>
-      </select>
-      <button type="submit" name="submit">Calculate</button>
+        <input type="text" name="num1" class="form-control num1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Weight in lbs">
+        <!-- <input type="text" name="num2" class="form-control num1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Weight in lbs"> -->
+        <select name="num2" class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+          <option value=".015">Low Activity/Overweight (1.5%)</option>  
+          <option value=".02">Average Activty (2.0%)</option>
+          <option value=".025">Above Average Activity (2.5%)</option>
+          <option value=".03">Needs to Gain Weight (3.0%)</option>
+          <option value=".035">Highly Active (3.5%)</option>
+          <option value="0.04">Puppy (4.0%)</option>
+        </select>
+      <button type="submit" name="submit" class="btn btn-primary">Calculate</button>
+
+      </div>
 
     </form>
 

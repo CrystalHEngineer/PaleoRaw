@@ -275,8 +275,42 @@ p {
 
 
 
+/* -------- CALCULATOR PAGE ------ */
 
-/* ------- FOOTER PAGE ------- */
+#calculator {
+  padding: 15%;
+}
+
+
+
+
+
+/* -------- CONTACT PAGE ----- */
+
+#contact {
+  padding: 5%;
+}
+
+.contact-form {
+  padding: 5% 25%;
+}
+
+.btn-primary {
+  background-color: #163172;
+  border-color: #163172;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #1E56A0 !important;
+  border-color: #1E56A0 !important;
+}
+
+
+
+/* ------- FAQ PAGE ------- */
 
 #FAQ {
   padding: 2% 9%;
@@ -289,3 +323,6 @@ p {
 .q {
   padding-bottom: 2%;
 }
+
+
+
