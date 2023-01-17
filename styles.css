@@ -117,6 +117,10 @@ p {
   padding: 0 12px;
 }
 
+.navbar-toggler-icon {
+  color: #FDFEFF!important;
+}
+
 
 #title {
   background-color: #D6E4F0;
