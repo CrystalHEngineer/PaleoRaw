@@ -98,14 +98,14 @@ p {
 .navbar-brand {
   color: #FDFEFF!important;
   font-family: 'Bitter', serif;
-  font-size: 5rem;
+  font-size: 5.5rem;
   font-weight: 900;
 }
 
 .nav-link {
-  color: #FFF6F6;
+  color: #FDFEFF;
   font-family: 'Bitter', serif;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 900;
 }
 
@@ -117,13 +117,13 @@ p {
   padding: 0 12px;
 }
 
-.navbar-toggler-icon {
-  color: #FDFEFF!important;
-}
-
-
 #title {
   background-color: #D6E4F0;
+}
+
+.toggler {
+  height: 3rem;
+  width: 100%;
 }
 
 
@@ -213,6 +213,12 @@ p {
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
+}
+
+.next-icon {
+  color: #FDFEFF;
+  height: 3.5rem;
+  width: 100%;
 }
 
 
